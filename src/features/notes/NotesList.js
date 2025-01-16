@@ -37,7 +37,6 @@ const NotesList = () => {
     }
 
     if (isError) {
-        console.log(error)
         content = <ErrorMessage errmsg={error?.data?.message} />
     }
 
